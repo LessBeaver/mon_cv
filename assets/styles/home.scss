@@ -1,0 +1,65 @@
+// TODO A placer dans apps
+.section-container {
+  margin: 60px 0;
+}
+
+// TODO A placer dans apps
+.container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// TODO A placer dans apps
+.home-h1 {
+  margin: 30px;
+}
+
+.profile-container {
+  display: flex;
+  width: 60%;
+  margin: 30px auto;
+}
+
+.profile-container * {
+  padding: 15px;
+}
+
+.profile-img {
+  width: 300px;
+  height: auto;
+}
+
+// EXPERIENCES
+
+.pattern-container {
+  background-color: #1dae1114;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.skills-content {
+  width: 80%;
+}
+
+.soft-skills {
+  margin: 30px 0;
+}
+
+.soft-skills span {
+  // letter-spacing: 1px;
+  font-weight: bold;
+  // letter-spacing: 1px;
+}
+
+.hard-skills {
+  display: flex;
+  margin: 30px auto;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.hard-skills div {
+  margin: 30px;
+}

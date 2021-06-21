@@ -5,7 +5,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 		<title>
-			{% block title %}Welcome!
+			{% block title %}CV Développeuse Junior
 			{% endblock %}
 		</title>
 		{% block stylesheets %}
@@ -30,32 +30,32 @@
 					<div class="navigation-container">
 						<ul class="navigation-links">
 							<li class="header-links">
-								<a href="/" class="links">
+								<a href="#home" class="links">
 									<span>Accueil</span>
 								</a>
 							</li>
 							<li>
-								<a href="#" class="links">
+								<a href="#skills" class="links">
 									<span>Compétences</span>
 								</a>
 							</li>
 							<li>
-								<a href="#" class="links">
+								<a href="#experiences" class="links">
 									<span>Expériences</span>
 								</a>
 							</li>
 							<li>
-								<a href="#" class="links">
+								<a href="#projects" class="links">
 									<span>Réalisations</span>
 								</a>
 							</li>
 							<li>
-								<a href="#" class="links">
+								<a href="#training" class="links">
 									<span>Formations</span>
 								</a>
 							</li>
 							<li>
-								<a href="#" class="links">
+								<a href="#contact" class="links">
 									<span>Contact</span>
 								</a>
 							</li>
@@ -63,7 +63,92 @@
 					</div>
 				</div>
 			</div>
+			<div class="parallax">
+				<div class="parallax-container">
+					<div class="parallax-content">
+						<div class="parallax-hello">
+							Hello, I'm Leslie 🦝 et je suis
+							<h1>"Développeuse Front-End" Junior</h1>
+						</div>
+						<div class="parallax-text">
+							Je suis à la recherche d'une entreprise en
+							<span>contrat d'alternance</span>, sur
+							<span>Toulouse</span>
+							et alentours, à compter de
+							<span>Septembre 2021</span>
+						</div>
+					</div>
+				</div>
+			</div>
 		</header>
-		{% block body %}{% endblock %}
+
+		<section class="section-container" id="home">
+			<div class="container-content">
+				<h1 class="home-h1">Hello, I'm Leslie 🦝</h1>
+				<div class="profile-container">
+					<img src="/images/me.jpeg" alt="" class="profile-img">
+					<div class="profile-content">
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid qui in est animi impedit incidunt modi ipsum aliquam. Esse earum tenetur quam dolorem debitis labore. Assumenda at veritatis neque illo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, nulla delectus dignissimos, rem tempore maxime, dolorem aspernatur voluptates quod dolor adipisci cum? Fugit delectus cumque iusto amet quas doloribus exercitationem.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-container pattern-container" id="skills">
+			<div class="container-content">
+				<h1 class="home-h1">Compétences 🌿</h1>
+				<div class="skills-content">
+					<div class="soft-skills">
+						<div>
+							De nature
+							<span>créative</span>,
+							<span>enjouée</span>,
+							<span>sociable</span>
+							et
+							<span>bienveillante</span>, on me décrit souvent comme une personne qui
+							<span>s'adapte</span>
+							et
+							<span>s'intègre facilement</span>. Pourtant très timide, je suis
+							<span>bonne communicante</span>
+							et apprécie tout particulièrement le
+							<span>relationnel</span>. J'ai appris la
+							<span>rigueur</span>
+							et la
+							<span>persévérance</span>
+							grâçe à mes années de gymnastique artistique ainsi que le
+							<span>travail en équipe</span>. Ma
+							<span>bonne humeur</span>
+							quotidienne ravie mes collègues.
+						</div>
+					</div>
+					<div class="hard-skills">
+						<div>Ma formation m'a permis d'apprendre :
+							<ul>
+								<li>Javascript</li>
+								<li>React</li>
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>NodeJs</li>
+								<li>Express</li>
+								<li>MySql</li>
+							</ul>
+						</div>
+						<div>J'ai eu l'occasion de travailler sur :
+							<ul>
+								<li>PHP</li>
+								<li>Symfony/Twig/Doctrine</li>
+								<li>Sass</li>
+								<li>Docker</li>
+								<li>Selenium</li>
+								<li>Cucumber</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						Je m'éclate tout particulièrement sur du développement front-end. Mon code est versionné et hébergé sur GIT ou Gitlab. J'utilise des outils de gestion de projet comme Trello, GitHub ou JIRA (en entreprise).
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
