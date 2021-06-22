@@ -31,25 +31,61 @@
   height: auto;
 }
 
-// EXPERIENCES
+.soft-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
 
 .pattern-container {
   background-color: #1dae1114;
   background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-}
-
-.skills-content {
-  width: 80%;
+  width: 100%;
+  margin: 60px;
 }
 
 .soft-skills {
-  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  width: 65%;
 }
 
 .soft-skills span {
-  // letter-spacing: 1px;
   font-weight: bold;
-  // letter-spacing: 1px;
+}
+
+.soft-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  padding: 15px;
+  width: 33%;
+}
+
+.soft-content p {
+  text-align: center;
+  line-height: 30px;
+}
+
+.round-icon {
+  background-color: #3ef02e14;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.round-icon i {
+  font-size: 40px;
+  line-height: 60px;
+  height: 60px;
+  width: 60px;
+  bottom: -20px;
+  position: relative;
+  text-align: center;
+  left: 20px;
+  color: #91cc70;
 }
 
 .hard-skills {
@@ -60,6 +96,22 @@
   justify-content: center;
 }
 
-.hard-skills div {
-  margin: 30px;
+// COMPETENCES
+
+.skills-info {
+  display: flex;
+}
+
+.skills-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-items {
+  padding: 15px;
+  margin: 15px;
+}
+
+.skills-items i {
+  line-height: 2.3;
 }
