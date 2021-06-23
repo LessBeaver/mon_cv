@@ -20,43 +20,43 @@
 		{% endblock %}
 	</head>
 	<body>
-		<header class="main-header" title="Photo by Devon Janse van Rensburg">
+		<header class="main-header" title="Photo by Su San Lee">
 			<div class="header-container">
 				<div class="header-content">
 					<div class="navbar-container">
-						<a href="#">
+						<a href="#" title="Leslie Rouzier, Développeuse front-end">
 							<h2>Leslie Rouzier</h2>
 						</a>
 					</div>
 					<div class="navigation-container">
 						<ul class="navigation-links">
 							<li class="header-links">
-								<a href="#home" class="links">
+								<a href="#home" class="links" title="Accueil">
 									<span>Accueil</span>
 								</a>
 							</li>
 							<li>
-								<a href="#skills" class="links">
+								<a href="#skills" class="links" title="Compétences">
 									<span>Compétences</span>
 								</a>
 							</li>
 							<li>
-								<a href="#experiences" class="links">
+								<a href="#experiences" class="links" title="Expériences">
 									<span>Expériences</span>
 								</a>
 							</li>
 							<li>
-								<a href="#projects" class="links">
+								<a href="#projects" class="links" title="Réalisations">
 									<span>Réalisations</span>
 								</a>
 							</li>
 							<li>
-								<a href="#training" class="links">
+								<a href="#training" class="links" title="Formations">
 									<span>Formations</span>
 								</a>
 							</li>
 							<li>
-								<a href="#contact" class="links">
+								<a href="#contact" class="links" title="Contact">
 									<span>Contact</span>
 								</a>
 							</li>
@@ -69,11 +69,11 @@
 					<div class="parallax-content">
 						<div class="parallax-hello">
 							Hello, I'm Leslie 🦝 et je suis
-							<h1>"Développeuse Front-End" Junior</h1>
+							<h1>"Développeuse Front-End"</h1>
 						</div>
 						<div class="parallax-text">
 							Je suis à la recherche d'une entreprise en
-							<span>contrat d'alternance</span>, sur
+							<span>contrat d'apprentissage</span>, sur
 							<span>Toulouse</span>
 							et alentours, à compter de
 							<span>Septembre 2021</span>
@@ -133,7 +133,8 @@
 								et la
 								<span>persévérance</span>
 								grâçe à mes années de gymnastique artistique ainsi que le
-								<span>travail en équipe</span>.
+								<span>travail en équipe</span>
+								et prône tout particulièrement celui-ci.
 							</p>
 						</div>
 					</div>
@@ -142,7 +143,7 @@
 		</section>
 
 		<section class="section-container" id="skills">
-			<div class="container-content">
+			<div class="container-content mgt-30">
 				<h1 class="home-h1">Compétences 🌿</h1>
 				<div class="skills-container">
 					<div class="skills">
@@ -154,7 +155,7 @@
 						</div>
 						<p>Sites web modernes mobile friendly, CRUD</p>
 						<div class="skills-content">
-							<div class="skills-text skills-items">
+							<div class="skills-items">
 								<p>HTML5 / CSS3 / SASS</p>
 								<p>Javascript / ReactJs</p>
 								<p>NodeJs / NPM / ExpressJs</p>
@@ -163,7 +164,7 @@
 								<p>PHP7 / Symfony (Doctrine/Twig)</p>
 								<p>Selenium / Cucumber / Jenkins</p>
 							</div>
-							<div class="skills-rating skills-items">
+							<div class="skills-items">
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
@@ -204,8 +205,110 @@
 							</div>
 						</div>
 					</div>
+					<div class="skills">
+						<div class="skills-info">
+							<div>
+								<i class="fas fa-users"></i>
+							</div>
+							<h3>Environnement</h3>
+						</div>
+						{# <p>Sites web modernes mobile friendly, CRUD</p> #}
+						<div class="skills-content">
+							<div class="skills-icon skills-items">
+								<img src="/images/ubuntu.png" alt="">
+								<img src="/images/vsc.png" alt="">
+								<img src="/images/git.png" alt="">
+							</div>
+							<div class="skills-text skills-items">
+								<p>Système d'exploitation</p>
+								<br>
+								<p>IDE</p>
+								<br>
+								<p>Workflow</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+		</section>
+
+		{# TODO Vérifier que l'on a mit tous les points à la fin des phrases #}
+		<section class="section-container" id="experiences">
+			<div class="container-content mgt-30">
+				<h1 class="home-h1">Expériences 🎀</h1>
+				<div class="timeline-container">
+					<div class="timeline">
+						<span class="time-event">Septembre 2020 à Mars 2021</span>
+						<span class="time-role">Développeuse de tests IHM</span>
+						<span class="time-place">
+							<a href="https://www.eurecia.com/">Eurécia</a>
+							, Castanet-Tolosan</span>
+						<b>Tests End to End</b>
+						<span>Entretien de l'existant, maintenance, refactoring et stabilisation, optimisation du temps d'exécution.</span>
+						<span>Intégration de nouveaux cas de tests.</span>
+						<span class="time-tech">Selenium, Cucumber, Jenkins, Javascript, Bash, Docker, Linux debian</span>
+					</div>
+					<div class="timeline">
+						<span class="time-event">Mai 2020 à Juillet 2020</span>
+						<span class="time-role">Développeuse web</span>
+						<span class="time-place">
+							<b class="nolink">Court Circuit</b>
+							, Toulouse
+						</span>
+						<b>Développement d'une application web à destination des habitants de Pailhès (Ariège).</b>
+						<span>Création d'un catalogue de produits locaux.</span>
+						<span>Implémentation d'un suivi des commandes.</span>
+						<span class="time-tech">Javascript, ReactJs, NodeJs, Express, MySQL, Workbench, Postman, Material UI, Adobe XD</span>
+					</div>
+					<div class="timeline">
+						<span class="time-event">24/25/26 Juin 2020</span>
+						<span class="time-role">Développeuse web</span>
+						<span class="time-place">
+							<a href="https://pimpmyfat.netlify.app/">PimpMyFat</a>
+							, Toulouse</span>
+						<i>Hackathon en partenariat avec
+							<a href="https://www.doctolib.fr/">Doctolib</a>
+						</i>
+						<span>Réalisation d'un dashboard permettant à l'utilisateur de suivre les tendances actuelles en matière de chirurgie plastique.</span>
+						<span class="time-tech">Javascript, ReactJs, NodeJs, Express, MySQL</span>
+					</div>
+					<div class="timeline">
+						<span class="time-event">Avril à Mai 2020</span>
+						<span class="time-role">Développeuse web</span>
+						<span class="time-place">
+							<a href="https://gamehoarder.netlify.app/">Game Hoarder</a>
+							, Toulouse
+						</span>
+						<span>Création d'une application web offrant la possibilité à ses utilisateurs de créer leur propre bibliothèque numérique de jeux-vidéos.</span>
+						<span>Utilisation de l'API
+							<a href="https://api-docs.igdb.com/#about">IGDB</a>
+						</span>
+						<span class="time-tech">Javascript, ReactJs, NodeJs, JSON, API Rest, SASS</span>
+					</div>
+					<div class="timeline">
+						<span class="time-event">Du 20 au 30 Avril 2020</span>
+						<span class="time-role">Développeuse web</span>
+						<span>Hackathon</span>
+						<span class="time-place">
+							<a href="https://karmajourney.netlify.app/">KarmaJourney</a>
+							, Toulouse</span>
+						<i>Prix de la meilleure fonctionnalité</i>
+						<span>Application web sous forme de quizz. L'utilisateur se voit proposer une destination de voyage en fonction de son karma.</span>
+						<span>Récupération des images grâce à l'API
+							<a href="https://api.windy.com/">Windy.</a>
+						</span>
+						<span class="time-tech">Javascript, ReactJs</span>
+					</div>
+					<div class="timeline">
+						<span class="time-event">Du 15 au 27 Mars 2020</span>
+						<span class="time-role">Développeuse web</span>
+						<span class="time-place">
+							<b class="nolink">Wild Foodie</b>
+							, Toulouse</span>
+						<span>Site internet développé en HTML/CSS.</span>
+					</div>
+				</div>
+			</body>
 		</body>
 	</body>
-</html>
+</html></body></html>

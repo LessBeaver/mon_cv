@@ -1,6 +1,6 @@
 // TODO A placer dans apps
 .section-container {
-  margin: 60px 0;
+  margin: 30px 0;
 }
 
 // TODO A placer dans apps
@@ -9,6 +9,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
+}
+
+// TODO A placer dans apps
+.mgt-30 {
+  margin-top: 30px;
 }
 
 // TODO A placer dans apps
@@ -41,7 +47,7 @@
   background-color: #1dae1114;
   background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
   width: 100%;
-  margin: 60px;
+  margin: 30px;
 }
 
 .soft-skills {
@@ -98,13 +104,37 @@
 
 // COMPETENCES
 
+.skills-container {
+  display: flex;
+  // justify-content: center;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.skills {
+  margin: 15px;
+  height: auto;
+  width: 45%;
+  background-color: #98dddd29;
+}
+
 .skills-info {
   display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.skills-info i {
+  height: 60px;
+  width: 60px;
+  font-size: 40px;
 }
 
 .skills-content {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  text-align: center;
 }
 
 .skills-items {
@@ -114,4 +144,83 @@
 
 .skills-items i {
   line-height: 2.3;
+}
+
+.skills-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skills-icon img {
+  height: 60px;
+  width: 60px;
+}
+
+// EXPERIENCES
+
+.timeline-container {
+  border-left: 1px solid #eaeaea;
+  padding: 30px 0;
+  width: 60%;
+  height: auto;
+}
+
+.timeline {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline::before {
+  content: "";
+  background-color: #33caca;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: -40px;
+  bottom: -16px;
+}
+
+.timeline a {
+  color: #33caca;
+  font-size: 14px;
+}
+
+.timeline b {
+  font-weight: 600;
+}
+
+.nolink {
+  color: #5ea2a2;
+  font-size: 14px;
+}
+
+.timeline i {
+  font-size: 11px;
+}
+
+.time-event {
+  font-weight: 500;
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+
+.time-role {
+  color: #91cc70;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.time-place {
+  font-size: 11px;
+  color: #757575;
+  margin-bottom: 7.5px;
+}
+
+.time-tech {
+  margin-top: 15px;
+  font-size: 14px;
 }
