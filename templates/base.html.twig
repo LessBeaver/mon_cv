@@ -13,9 +13,9 @@
 			<link rel="stylesheet" href="{{ asset('build/app.css') }}">
 		{% endblock %}
 		{# {% block stylesheets %}
-																	{{ encore_entry_link_tags('app') }}
-																	<link rel="stylesheet" href="/build/app.css">
-																{% endblock %} #}
+																													{{ encore_entry_link_tags('app') }}
+																													<link rel="stylesheet" href="/build/app.css">
+																												{% endblock %} #}
 		{% block javascripts %}
 			{{ encore_entry_script_tags('app') }}
 			<script src="/build/runtime.js" defer></script>
@@ -238,7 +238,6 @@
 			</div>
 		</section>
 
-		{# TODO Vérifier que l'on a mit tous les points à la fin des phrases #}
 		<section class="section-container" id="experiences">
 			<div class="container-content mgt-30">
 				<h1 class="home-h1">Expériences 🎀</h1>
@@ -314,7 +313,15 @@
 						<span>Site internet développé en HTML/CSS.</span>
 					</div>
 				</div>
-			</body>
-		</body>
+			</div>
+		</section>
+
+		<section class="section-container" id="projects">
+			<div class="container-content mgt-30">
+				<h1>Réalisations</h1>
+				<div class="projects-container"></div>
+			</div>
+		</section>
+
 	</body>
-</html></body></html>
+</html>
